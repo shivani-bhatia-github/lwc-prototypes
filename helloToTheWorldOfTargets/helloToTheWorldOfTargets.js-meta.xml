@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+    <!-- lightning__AppPage: Used for Lightning App Pages -->
+    <target>lightning__AppPage</target>
+
+    <!-- lightning__HomePage: Used for Lightning Home Pages -->
+    <target>lightning__HomePage</target>
+
+    <!-- lightning__RecordPage: Used for Lightning Record Pages -->
+    <target>lightning__RecordPage</target>
+
+    <!-- lightning__UtilityBar: Used for Utility Bar items -->
+    <target>lightning__UtilityBar</target>
+
+    <!-- lightning__FlowScreen: Used for embedding components in Flow screens -->
+    <target>lightning__FlowScreen</target>
+
+    <!-- lightning__Tab: Used for Lightning Tabs -->
+    <target>lightning__Tab</target>
+
+    <!-- lightning__Inbox: Used for Lightning Inbox -->
+    <target>lightning__Inbox</target>
+
+    <!-- lightningStatic__Email: Used for static email templates -->
+    <target>lightningStatic__Email</target>
+
+    <!-- lightningCommunity__Page: Used for Lightning Community Pages -->
+    <target>lightningCommunity__Page</target>
+
+    <!-- lightningCommunity__Page_Layout: Used for Lightning Community Page Layouts -->
+    <target>lightningCommunity__Page_Layout</target>
+
+    <!-- lightningCommunity__Theme_Layout: Used for Lightning Community Theme Layouts -->
+    <target>lightningCommunity__Theme_Layout</target>
+
+    <!-- lightningCommunity__Default: Used for default Lightning Community components -->
+    <target>lightningCommunity__Default</target>
+
+    <!-- lightningSnapin__ChatMessage: Used for Snap-ins Chat Messages -->
+    <target>lightningSnapin__ChatMessage</target>
+
+    <!-- lightningSnapin__Minimized: Used for Snap-ins Minimized state -->
+    <target>lightningSnapin__Minimized</target>
+
+    <!-- lightningSnapin__PreChat: Used for Snap-ins Pre-Chat forms -->
+    <target>lightningSnapin__PreChat</target>
+
+    <!-- lightningSnapin__ChatHeader: Used for Snap-ins Chat Headers -->
+    <target>lightningSnapin__ChatHeader</target>
+
+    <!-- lightning__RecordAction: Used for Record Actions -->
+    <target>lightning__RecordAction</target>
+
+    <!-- lightning__GlobalAction: Used for Global Actions -->
+    <target>lightning__GlobalAction</target>
+
+    <!-- analytics__Dashboard: Used for embedding Analytics Dashboards -->
+    <target>analytics__Dashboard</target>
+
+    <!-- lightning__PropertyEditor: Used for Property Editors -->
+    <target>lightning__PropertyEditor</target>
+
+    <!-- lightning__UrlAddressable: Used for URL Addressable components -->
+    <target>lightning__UrlAddressable</target>
+
+    <!-- 
+        lightning__AppPage:
+        - Used for Lightning App Pages.
+        - Example Usage: A dashboard component that provides an overview of key metrics for a sales team.
+
+        lightning__HomePage:
+        - Used for Lightning Home Pages.
+        - Example Usage: A component that displays personalized tasks or notifications for users on their home page.
+
+        lightning__RecordPage:
+        - Used for Lightning Record Pages.
+        - Example Usage: A component that shows related records or custom actions for a specific record.
+
+        lightning__UtilityBar:
+        - Used for Utility Bar items.
+        - Example Usage: A component that provides quick access to tools like calculators or timers in the Utility Bar.
+
+        lightning__FlowScreen:
+        - Used for embedding components in Flow screens.
+        - Example Usage: A component that collects user input as part of a guided flow.
+
+        lightning__Tab:
+        - Used for Lightning Tabs.
+        - Example Usage: A component that displays detailed information in a tabbed interface.
+
+        lightning__Inbox:
+        - Used for Lightning Inbox.
+        - Example Usage: A component that integrates email or calendar functionality within Salesforce.
+
+        lightningStatic__Email:
+        - Used for static email templates.
+        - Example Usage: A component that renders dynamic content in email templates.
+
+        lightningCommunity__Page:
+        - Used for Lightning Community Pages.
+        - Example Usage: A component that displays community-specific content or actions.
+
+        lightningCommunity__Page_Layout:
+        - Used for Lightning Community Page Layouts.
+        - Example Usage: A component that defines the layout for community pages.
+
+        lightningCommunity__Theme_Layout:
+        - Used for Lightning Community Theme Layouts.
+        - Example Usage: A component that provides a consistent theme across community pages.
+
+        lightningCommunity__Default:
+        - Used for default Lightning Community components.
+        - Example Usage: A component that serves as a fallback for community pages.
+
+        lightningSnapin__ChatMessage:
+        - Used for Snap-ins Chat Messages.
+        - Example Usage: A component that displays chat messages in a Snap-ins chat window.
+
+        lightningSnapin__Minimized:
+        - Used for Snap-ins Minimized state.
+        - Example Usage: A component that represents the minimized state of a Snap-ins chat window.
+
+        lightningSnapin__PreChat:
+        - Used for Snap-ins Pre-Chat forms.
+        - Example Usage: A component that collects user information before starting a Snap-ins chat.
+
+        lightningSnapin__ChatHeader:
+        - Used for Snap-ins Chat Headers.
+        - Example Usage: A component that displays the header of a Snap-ins chat window.
+
+        lightning__RecordAction:
+        - Used for Record Actions.
+        - Example Usage: A component that provides custom actions for records in Salesforce.
+
+        lightning__GlobalAction:
+        - Used for Global Actions.
+        - Example Usage: A component that provides global actions accessible from anywhere in Salesforce.
+
+        analytics__Dashboard:
+        - Used for embedding Analytics Dashboards.
+        - Example Usage: A component that displays an embedded analytics dashboard.
+
+        lightning__PropertyEditor:
+        - Used for Property Editors.
+        - Example Usage: A component that allows users to configure properties for other components.
+
+        lightning__UrlAddressable:
+        - Used for URL Addressable components.
+        - Example Usage: A component that can be accessed directly via a URL.
+    -->
+    </targets>
+</LightningComponentBundle>
